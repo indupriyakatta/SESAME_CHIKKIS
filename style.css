@@ -1,0 +1,370 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body,html{
+  height: 100%;
+  margin:0;
+  padding: 0;
+  font-weight: bold;
+  color: #352817;
+  font-family: Roboto;
+  background-color: #ffd7bf;
+}
+
+
+/* BODY FONT */
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+/* LIST ITEMS  */
+.container  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    a{
+    text-decoration: none;
+    }
+
+  /* NAVBAR */
+
+  */
+
+    div.container div.nav-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 50px;
+        font-family: roboto;
+        color: black;
+        font-weight: bold; 
+           
+        position:fixed;   
+        top: 0; 
+        /* z-index: 2; */
+        width: 100%;
+       
+        
+      }
+
+      .container div.nav-bar nav {
+        position: fixed;
+        margin-top:0;
+        width: 100%;
+        z-index: 2;
+
+      }
+      
+      .nav-bar a {
+        padding: 10px 20px;
+        margin: 0 5px;
+        color: black;
+        font-weight: bold;
+      }
+      .nav-bar ul {
+        display: flex;
+       
+      }
+      
+
+      /* TITLE-pumpkin and sesame chikkis */
+
+      div.title ul li {
+        display: inline;
+      }
+
+      /* for colouring the stars */
+      div.title ul li img.filled {
+        left: 8.76%;
+        right: 10.49%;
+        top: 8.35%;
+        bottom: 9.33%;
+        border-radius: 5%;
+        background-color: #614731;
+      }
+      div.title ul li.bold{
+        font-family: 'Roboto mono';
+        size: 15px;
+        font-weight: 900;
+        line-height: 0px;
+      } 
+      
+      h1.main-title {
+        width: 680px;
+        height: 375px;
+        padding-left: 10px;
+        left: 50px;
+        top: 205px;
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 125px;
+        line-height: 125px;
+        letter-spacing: -0.01em;
+        color: #352817;
+     }
+  
+   
+     div.title h2{
+      font-family: 'Roboto Mono';
+      font-size: xx-large;
+      }
+
+      div ul li{
+      font-family: 'Roboto Mono';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      color: black;
+     }
+
+     div.title div.qualities ul {
+      border: 10px;
+      border-top: 50px;
+      border-bottom: 10px;
+      padding: 25px;
+      background-color:#f8a271;
+     }
+
+     div.title div.qualities ul li span.description{
+      padding-left: 10px;
+      padding-right: 63px;
+      font-family:'Roboto Mono' ;
+      font-weight: bold;
+      font-size: x-large;
+     }    
+      main h2{     
+        text-align: center;
+        padding-bottom: 15px;
+        padding-top: 40px;
+        font-size: 60px;
+        }
+
+     /* NUTRITION FACTS */
+    
+
+     div.title div.box div.marked {
+      font-family: 'Roboto';
+     }
+      div.title div.marked {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      font-family: 'Roboto';
+      font-weight: bold;
+      padding: 5px 10px;
+      width: 138px;
+      height: 40px;
+      border-radius: 42px;
+      background: #f8a271;
+    }
+     div.title span.colors {
+      width: 108px;
+      height: 20px;
+      font-size: 17px;
+      font-family: 'Roboto Mono';
+      font-weight: bold;
+      line-height: 20px;
+      text-align: center;
+      color: #362918;
+      background: none;
+    }
+    div.box {
+      display: flex;
+    }
+    div.un-marked {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      font-family: 'Roboto';
+      font-weight: bold;
+      padding: 5px 10px;
+      width: 138px;
+      height: 40px;
+      border-radius: 42px;
+      background: none;
+      border: 3px solid #f8a271;
+      margin-left: 10px;
+    }
+    div.un-marked span.colors {
+      width: 113px;
+      height: 20px;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 20px;
+      text-align: center;
+      color: #362918;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+    div ul span.dotted{
+      color: #F26B25;
+       font: 'roboto';
+      font-weight: bold;
+      font-size: xx-large; 
+     } 
+
+  /* KNOW YOUR FOOD */
+    section.food {
+    display: flex;
+    }
+
+    section.food div.inside h4{
+      text-align: center;
+    }
+     
+section.food div.list_of_facts  {
+  display: inline-block;
+  padding-right: 10%;
+  width: 50%;
+  font-size: 30px;
+}
+section.food div.list_of_facts h4.facts{
+  text-align: center;
+  font-size: 28px;
+}
+section.food div.list_of_facts p{
+  text-align: center;
+  font-size: 25px;
+}
+section.food div.list_of_facts ul li {
+  font-size: 1800px;
+  list-style: none;
+  text-align: center;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+section.food div.inside {
+  display:inline-block;
+  width: 50%;
+  padding-left: 20%;
+}
+section.food div.inside h4{
+  text-align: center;
+  font-size: 28px;
+}
+
+div.nutritions ul li span.dots {
+  color: #f8a271;
+  font-weight: bold;
+}
+
+section.food div.inside ul li {
+  display: inline-block;
+  padding: 5px;
+}
+
+section.food div.inside ul li p {
+  padding: 10px;
+  font-weight: bold;
+}
+
+section.inside {
+  display: flex;
+}
+
+section.inside div.heading {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  font-size: 50px;
+  font-weight: 500;
+  padding: 10%;
+  font-family: "Roboto";
+}
+
+section.inside div.leaf {
+  display: flex;
+  padding-left: 48%;
+}
+section.know-your-product div.leaf-img{
+  display: flex;
+  padding-left: 70%;
+  background: none;
+}
+section.know-your-product{
+  display: flex;
+}
+section.know-your-product div h2{
+  display: flex;
+  width: 45%;
+  height: 45%;
+  padding: 30%;
+  font-weight: 900;
+  font-size: 50px;
+  flex-direction: row;
+}
+ 
+/* PLACEHOLDER */
+
+    section.images div.video img {
+      display: flex;
+      width: 80%;
+      padding-left: 5%;
+      float: left;
+      border-radius: 10%;     
+      position: relative;
+      top: 0;
+      left: 0;
+      z-index:1;
+    }
+    section.images div.video-2 img {
+      display: flex;
+      width: 80%;
+      padding-left: 10%;
+      float: right;
+    }
+
+    section.images div.video img.play {
+      max-width: 25%;
+      max-height: 20%;
+      position:absolute;
+      top:2500px;
+      right: 25px;
+      left:350px;
+      bottom: 50px;
+    }
+
+    /* FOOTER */
+
+    footer div.fixed img.footer-image {
+      width: 445.41px;
+      height: 668.03px;
+      left: 1167.91px;
+      top: 594.1px;
+    }
+    
+    footer div.fixed  img.footer-image{
+      padding-left: 50px;
+      padding-right: 30%;
+      display: block;
+      width: 50%;
+      padding: 10%;
+      bottom: 0px;
+    }
+    footer div.fixed {
+      position: sticky;
+      top: 100px;
+      background: transparent;
+      bottom: 0;
+    }
+    
+    footer div.fixed{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      z-index: 1;
+    }
+    
+   
+
+   
+    
